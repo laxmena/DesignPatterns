@@ -8,6 +8,7 @@ Description: Strategy Pattern in implemented in a primitive VideoStreaming servi
 
 - [Java Implementation](Java/StrategyPattern)
 - C++ Implementation
-- Python Implementation
+- [Python Implementation](Python/StrategyPattern)
 
 -----
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=laxmena.designpatterns.home.visitor-badge&left_text=PageVisitors)
