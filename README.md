@@ -4,11 +4,22 @@ Implementation of various design patterns in C++, Java and Python.
 ---
 ## Strategy Pattern
 
-Description: Strategy Pattern in implemented in a primitive VideoStreaming service, that automatically changes Streaming Strategy in run-time based on network speed of the client.
+**Description:** Strategy Pattern in implemented in a primitive VideoStreaming service, that automatically changes Streaming Strategy in run-time based on network speed of the client.
 
 - [Java Implementation](Java/StrategyPattern)
-- C++ Implementation
 - [Python Implementation](Python/StrategyPattern)
 
------
-![visitor badge](https://visitor-badge.glitch.me/badge?page_id=laxmena.designpatterns.home.visitor-badge&left_text=PageVisitors)
+----
+## Observer Pattern
+
+**Description:** A Digital News Agency and Subscriber has been designed to demonstrate the Observer pattern. Whenever there is a new news added to the NewsAgency(The Publisher/Observable), all its subscribers are notified.
+
+- [Java Implementation](Java/ObserverPattern)
+- Python Implementation
+----
+
+If you have any feedbacks, comments or suggestions regarding this repository, please do let me know!
+
+You can contact me through [Email](mailto:ConnectWith@laxmena.com), [LinkedIn](https://www.linkedin.com/in/lakshmanan-meiyappan) or [Twitter](https://twitter.com/laxmena)
+
+I write Tech blogs and articles here: [Medium](https://laxmena.medium.com) and [Personal Blog](https://laxmena.com)!
