@@ -15,7 +15,8 @@ Implementation of various design patterns in C++, Java and Python.
 **Description:** A Digital News Agency and Subscriber has been designed to demonstrate the Observer pattern. Whenever there is a new news added to the NewsAgency(The Publisher/Observable), all its subscribers are notified.
 
 - [Java Implementation](Java/ObserverPattern)
-- Python Implementation
+- [Python Implementation](Python/ObserverPattern)
+
 ----
 
 If you have any feedbacks, comments or suggestions regarding this repository, please do let me know!
