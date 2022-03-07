@@ -18,6 +18,16 @@ Implementation of various design patterns in C++, Java and Python.
 - [Python Implementation](Python/ObserverPattern)
 
 ----
+## Decorator Pattern
+
+**Description:** Decorator pattern adds additional functionality to the existing classes. This pattern satisfies the Open-Close principle.
+
+**Example Description:** This example implements the Decorator Pattern to simulate a Coffee Shop billing system, where the users can customize the coffee with condiments in infinite possibilities. 
+
+- [Java Implementation](Java/DecoratorPattern)
+- [Python Implementation](Python/DecoratorPattern)
+
+----
 
 If you have any feedbacks, comments or suggestions regarding this repository, please do let me know!
 
