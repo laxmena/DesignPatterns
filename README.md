@@ -22,10 +22,16 @@ Implementation of various design patterns in C++, Java and Python.
 
 **Description:** Decorator pattern adds additional functionality to the existing classes. This pattern satisfies the Open-Close principle.
 
+#### Coffee-Hut Example
 **Example Description:** This example implements the Decorator Pattern to simulate a Coffee Shop billing system, where the users can customize the coffee with condiments in infinite possibilities. 
 
-- [Java Implementation](Java/DecoratorPattern)
+- [Java Implementation](Java/DecoratorPattern/Coffee-Hut)
 - [Python Implementation](Python/DecoratorPattern)
+
+#### Notification Channels Example: 
+Decorator Pattern is used to simulate a Notification system. The user can opt in for combination of multiple notification channels like SMS, Slack and Facebook along with the default Email notification channel. 
+
+- [Java Implementation](Java/DecoratorPattern/EventNotifier)
 
 ----
 
