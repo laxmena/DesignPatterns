@@ -12,6 +12,6 @@ public class PostgresDatabase implements Database {
 
     @Override
     public void queryTable(String tableName, String query) {
-        System.out.println("Querying " + query + " | on Table: ");
+        System.out.println("Querying " + query + " | on Table: " + tableName);
     }
 }

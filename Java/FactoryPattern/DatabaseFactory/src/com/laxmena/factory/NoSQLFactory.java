@@ -6,7 +6,7 @@ import com.laxmena.db.MongoDatabase;
 public class NoSQLFactory extends DatabaseFactory {
 
     @Override
-    public Database getDatabase(String database) {
+    public Database createDatabase(String database) {
         if(database.equalsIgnoreCase("MongoDB")) {
             return new MongoDatabase();
         } else {

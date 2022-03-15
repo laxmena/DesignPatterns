@@ -7,7 +7,7 @@ import com.laxmena.db.PostgresDatabase;
 public class SQLFactory extends DatabaseFactory {
 
     @Override
-    public Database getDatabase(String database) {
+    public Database createDatabase(String database) {
         if(database.equalsIgnoreCase("MySQL")) {
             return new MySQLDatabase();
         } else if(database.equalsIgnoreCase("Postgres")) {
