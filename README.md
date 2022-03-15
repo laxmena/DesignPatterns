@@ -1,6 +1,8 @@
 # DesignPatterns
 Implementation of various design patterns in C++, Java and Python.
 
+This is an Open Source project created to serve as a Reference material. If you find this repository useful, do star the repository to show your support.
+
 ---
 ## Strategy Pattern
 
