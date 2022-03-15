@@ -32,6 +32,19 @@ Implementation of various design patterns in C++, Java and Python.
 Decorator Pattern is used to simulate a Notification system. The user can opt in for combination of multiple notification channels like SMS, Slack and Facebook along with the default Email notification channel. 
 
 - [Java Implementation](Java/DecoratorPattern/EventNotifier)
+- [Python Implementation](#)
+----
+
+## Factory Method Pattern
+
+**Description:**
+
+#### Database Adapter Example
+
+**Example Description:** Simple Database Adapter - implements Factory method. Makes use of Two Factories - one for SQL and another for NoSQL that helps create different Databases, and perform queries on them.
+
+- [Java Implementation](Java/FactoryPattern/DatabaseFactory)
+- [Python Implementation](#)
 
 ----
 
