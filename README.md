@@ -28,13 +28,13 @@ This is an Open Source project created to serve as a Reference material. If you 
 **Example Description:** This example implements the Decorator Pattern to simulate a Coffee Shop billing system, where the users can customize the coffee with condiments in infinite possibilities. 
 
 - [Java Implementation](Java/DecoratorPattern/Coffee-Hut)
-- [Python Implementation](Python/DecoratorPattern)
+- [Python Implementation](Python/DecoratorPattern/Coffee-Hut)
 
 #### Notification Channels Example: 
 Decorator Pattern is used to simulate a Notification system. The user can opt in for combination of multiple notification channels like SMS, Slack and Facebook along with the default Email notification channel. 
 
 - [Java Implementation](Java/DecoratorPattern/EventNotifier)
-- [Python Implementation](#)
+- [Python Implementation](Python/DecoratorPattern/EventNotifier/)
 ----
 
 ## Factory Method Pattern
@@ -46,7 +46,7 @@ Decorator Pattern is used to simulate a Notification system. The user can opt in
 **Example Description:** Simple Database Adapter - implements Factory method. Makes use of Two Factories - one for SQL and another for NoSQL that helps create different Databases, and perform queries on them.
 
 - [Java Implementation](Java/FactoryPattern/DatabaseFactory)
-- [Python Implementation](#)
+- [Python Implementation](Python/FactoryPattern/DatabaseAdapter/)
 
 ----
 
