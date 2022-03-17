@@ -2,13 +2,9 @@
 
 Abstract Factory Pattern is implemented here with an example of a Furniture Store.
 
-In this example, we have three different types of styles of furniture - Victorian, Modern and ArtDeco style furniture.
+We consider three different styles of furniture - Victorian, Modern and ArtDeco. Also, There are three furniture products in each style - Table, Chair and Sofa. Which essentially adds upto 9 products, and should be flexible to expand.
 
-There are three furniture products in each style - Table, Chair and Sofa.
-
-So, together we have 9 different unique products (Victorian Chair, Modern Chair, ArtDeco Chair, Victorial Sofa, ....).
-
-We have multiple families(styles) of related products(furnitures), here's where Abstract Factory can be really helpful.
+There are multiple families(styles) of related products(furnitures), and this is exactly the place where Abstract Factory can be very effective.
 
 Since there are three different styles in this example, we would need 3 different factories. Victorian Factory will 
 produce products that adhere to the Victorian Style. Similarly, for other styles factory creates products that follow its

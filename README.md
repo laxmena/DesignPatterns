@@ -50,6 +50,20 @@ Decorator Pattern is used to simulate a Notification system. The user can opt in
 
 ----
 
+## Abstract Factory Pattern
+
+**Description:**
+Abstract Factory is a creational design pattern that lets us produce families of related objects without specifying their concrete classes. [Definition Source](https://refactoring.guru/design-patterns/abstract-factory).
+#### Furniture Store Example
+
+**Example Description:** 
+Abstract Factory Pattern is implemented here with an example of a Furniture Store. We consider three different styles of furniture - Victorian, Modern and ArtDeco. Also, There are three furniture products in each style - Table, Chair and Sofa. Which essentially adds upto 9 products, and should be flexible to expand. Abstract Factory is implemented to approach this challenge.
+
+- [Java Implementation](Java/AbstractFactory/FurnitureStore)
+- Python Implementation
+
+----
+
 If you have any feedbacks, comments or suggestions regarding this repository, please do let me know!
 
 You can contact me through [Email](mailto:ConnectWith@laxmena.com), [LinkedIn](https://www.linkedin.com/in/lakshmanan-meiyappan) or [Twitter](https://twitter.com/laxmena)
