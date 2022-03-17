@@ -8,16 +8,16 @@ This is an Open Source project created to serve as a Reference material. If you 
 
 **Description:** Strategy Pattern in implemented in a primitive VideoStreaming service, that automatically changes Streaming Strategy in run-time based on network speed of the client.
 
-- [Java Implementation](Java/StrategyPattern)
-- [Python Implementation](Python/StrategyPattern)
+- [Java Implementation](StrategyPattern/Java/VideoStreamingService)
+- [Python Implementation](StrategyPattern/Python/VideoStreamingService)
 
 ----
 ## Observer Pattern
 
 **Description:** A Digital News Agency and Subscriber has been designed to demonstrate the Observer pattern. Whenever there is a new news added to the NewsAgency(The Publisher/Observable), all its subscribers are notified.
 
-- [Java Implementation](Java/ObserverPattern)
-- [Python Implementation](Python/ObserverPattern)
+- [Java Implementation](ObserverPattern/Java/NewsAgency)
+- [Python Implementation](ObserverPattern/Python/NewsAgency)
 
 ----
 ## Decorator Pattern
@@ -27,14 +27,14 @@ This is an Open Source project created to serve as a Reference material. If you 
 #### Coffee-Hut Example
 **Example Description:** This example implements the Decorator Pattern to simulate a Coffee Shop billing system, where the users can customize the coffee with condiments in infinite possibilities. 
 
-- [Java Implementation](Java/DecoratorPattern/Coffee-Hut)
-- [Python Implementation](Python/DecoratorPattern/Coffee-Hut)
+- [Java Implementation](DecoratorPattern/Java/Coffee-Hut)
+- [Python Implementation](DecoratorPattern/Python/Coffee-Hut)
 
 #### Notification Channels Example: 
 Decorator Pattern is used to simulate a Notification system. The user can opt in for combination of multiple notification channels like SMS, Slack and Facebook along with the default Email notification channel. 
 
-- [Java Implementation](Java/DecoratorPattern/EventNotifier)
-- [Python Implementation](Python/DecoratorPattern/EventNotifier/)
+- [Java Implementation](DecoratorPattern/Java/EventNotifier)
+- [Python Implementation](DecoratorPattern/Python/EventNotifier)
 ----
 
 ## Factory Method Pattern
@@ -45,8 +45,8 @@ Decorator Pattern is used to simulate a Notification system. The user can opt in
 
 **Example Description:** Simple Database Adapter - implements Factory method. Makes use of Two Factories - one for SQL and another for NoSQL that helps create different Databases, and perform queries on them.
 
-- [Java Implementation](Java/FactoryPattern/DatabaseFactory)
-- [Python Implementation](Python/FactoryPattern/DatabaseAdapter/)
+- [Java Implementation](FactoryPattern/Java/DatabaseAdapter)
+- [Python Implementation](FactoryPattern/Python/DatabaseAdapter)
 
 ----
 
@@ -59,7 +59,7 @@ Abstract Factory is a creational design pattern that lets us produce families of
 **Example Description:** 
 Abstract Factory Pattern is implemented here with an example of a Furniture Store. We consider three different styles of furniture - Victorian, Modern and ArtDeco. Also, There are three furniture products in each style - Table, Chair and Sofa. Which essentially adds upto 9 products, and should be flexible to expand. Abstract Factory is implemented to approach this challenge.
 
-- [Java Implementation](Java/AbstractFactory/FurnitureStore)
+- [Java Implementation](AbstractFactoryPattern/Java/FurnitureStore)
 - Python Implementation
 
 ----
