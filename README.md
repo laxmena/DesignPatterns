@@ -60,7 +60,7 @@ Abstract Factory is a creational design pattern that lets us produce families of
 Abstract Factory Pattern is implemented here with an example of a Furniture Store. We consider three different styles of furniture - Victorian, Modern and ArtDeco. Also, There are three furniture products in each style - Table, Chair and Sofa. Which essentially adds upto 9 products, and should be flexible to expand. Abstract Factory is implemented to approach this challenge.
 
 - [Java Implementation](AbstractFactoryPattern/Java/FurnitureStore)
-- Python Implementation
+- [Python Implementation](AbstractFactoryPattern/Python/FurnitureStore)
 
 ----
 
