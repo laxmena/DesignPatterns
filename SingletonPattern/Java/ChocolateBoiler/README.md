@@ -17,3 +17,14 @@ So, we define a static method in this class. This static method checks if there 
 if true, then this method returns a reference to the created instance. If the object is not previously created, then 
 a new object instance is created and the reference is returned.
 
+### References and Reading materials
+
+This implementation uses `volatile`, `synchronized` and `double checking locking` approaches. Find reading materials related to these topics here:
+
+#### Java volatile keyword
+- https://jenkov.com/tutorials/java-concurrency/volatile.html
+- https://www.baeldung.com/java-volatile
+
+#### Synchronized
+
+#### Double Checking Locking
